@@ -33,6 +33,7 @@ const SentimentForm = () => {
 
       return await response.json();
     } catch (error) {
+      // eslint-disable-next-line no-console
       console.error('Error fetching data:', error);
       setError(error as Error);
       return null;

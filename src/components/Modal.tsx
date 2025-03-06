@@ -1,5 +1,6 @@
 import { SENTIMENT_INFO } from '../constants/sentiment';
 import { SentimentInfo, SentimentLabel } from '../types/sentiment';
+import React from 'react';
 
 interface ModalProps {
   isOpen: boolean;
