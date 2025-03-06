@@ -20,4 +20,3 @@ export const SENTIMENT_INFO: Record<SentimentLabel, SentimentInfo> = {
 
 export const API_URL =
   'https://api-inference.huggingface.co/models/cardiffnlp/twitter-roberta-base-sentiment-latest';
-export const MAX_TEXT_LENGTH = 500;

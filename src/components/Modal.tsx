@@ -1,7 +1,5 @@
 import { SENTIMENT_INFO } from '../constants/sentiment';
-import { SentimentInfo, SentimentLabel } from '../types/sentiment';
-import React from 'react';
-
+import { SentimentLabel, SentimentInfo } from '../types/sentiment';
 interface ModalProps {
   isOpen: boolean;
   onRequestClose: () => void;
